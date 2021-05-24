@@ -34,3 +34,16 @@
 }
 
 /* Table */
+.short-text {
+    width: 200px;
+}
+
+thead {
+    background-color: #20a9e5;
+    color: white;
+    font-weight: bold;
+}
+
+.colored-row {
+    background-color: #b1e5f2;;
+}
