@@ -10,7 +10,7 @@
     height: 100px;
 }
 
-header {
+.title-page {
     background-image: url("../img/pattern.png");
     background-position: top;
     background-repeat: repeat;
