@@ -17,3 +17,14 @@
     background-color: #4ea0ff; 
     background-size: 40%;
 }
+
+/* Header */
+#link-Booleaner {
+    text-decoration: none;
+    color: #20a9e5;
+}
+
+.author {
+    color: #818181;
+    font-weight: bold;
+}
