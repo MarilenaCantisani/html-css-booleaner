@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,87 +8,118 @@
     <link rel="stylesheet" href="./style/style.css" type="text/css">
     <title>The Booleaner</title>
 </head>
+
 <body>
-<div class="conteiner">
-
-    <!-- Logo -->
-    <div class="title-page">
-        <img id="logo" src="./img/logo.svg" alt="Logo The Booleaner">
-    </div>
-    
-    <!-- Header -->
-    <header>
-        <h1>Internet deve essere al servizio del "bene pubblico": il <br> manifesto di Tim Berners-Lee</h1>
-        <div class="author">
-            Scritto da <a id="link-Booleaner" href="">The Booleaner</a> <br>
-            il <em>10/10/2020</em> 
+    <div class="container">
+        <!--// LOGO //-->
+        <div id="logo-section" class="bg-blue">
+            <img id="logo-img" class="w-200" src="./img/logo.svg" alt="Logo The Booleaner">
         </div>
-    </header>
-    
-    <!-- Article -->
-    <article>
-        <section class="imgage">
-            <img src="./img/tim-1.jpg" alt="Tim Berners-Lee">
-            <img src="./img/tim-2.jpg" alt="Tim Berners-Lee">
-            <figcaption>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</figcaption>
-            <figcaption>2nd Photo: Wikimedia, by Paul Clarke</figcaption>
-        </section>
-
-        <section class="text-article">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dignissimos! Mollitia et repellat fugiat alias eligendi nulla beatae cupiditate debitis dolore recusandae dicta exercitationem vero saepe, praesentium illum reprehenderit id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, <span class="important">illo et? Architecto ipsum tempore odit et facilis mollitia quo nostrum repellendus nesciunt</span>  repudiandae temporibus cupiditate soluta, quis iusto esse aliquid.</p>
-            <ul>
-                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis nisi in est repellendus velit ad laboriosam exercitationem voluptatem</li>
-                <li>Reiciendis fugiat quam aut harum doloribus amet provident optio quibusdam alias qui, autem perferendis nostrum</li>
-                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis nisi in est repellendus velit ad laboriosam exercitationem voluptatem</li>
-            </ul>
-        </section>
-
-        <section class="table">
-            <!-- Table -->
-            <table>
-                <!-- Table header -->
-                <thead>
-                    <tr>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
-                    </tr>
-                </thead>
-                
-                <!-- Table body -->
-                <tbody>
-                    <tr class="colored-row">
-                        <td class="short-text">Lorem ipsum dolor</td>
-                        <td class="short-text">Lorem ipsum dolor</td>
-                        <td >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil sequi in enim nobis tempora accusamus ab iste, labore cum et excepturi maiores voluptate vitae eligendi? Ab voluptatum perferendis repellat odio.</td>
-                    </tr>
-                    <tr>
-                        <td class="short-text">Lorem ipsum dolor</td>
-                        <td class="short-text">Lorem ipsum dolor</td>
-                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil sequi in enim nobis tempora accusamus ab iste, labore cum et excepturi maiores voluptate vitae eligendi? Ab voluptatum perferendis repellat odio.</td>
-                    </tr>
-                    <tr class="colored-row">
-                        <td class="short-text">Lorem ipsum dolor</td>
-                        <td class="short-text">Lorem ipsum dolor</td>
-                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil sequi in enim nobis tempora accusamus ab iste, labore cum et excepturi maiores voluptate vitae eligendi? Ab voluptatum perferendis repellat odio.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section class="text-article">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos libero placeat possimus vel eius at laudantium distinctio ex porro dolores enim debitis rem a quibusdam alias quisquam, amet voluptate eligendi.<span class="important"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> Iure harum exercitationem ipsa sunt consectetur tempora, rerum libero enim, suscipit officia adipisci? Officia quam, voluptatum ab fugit mollitia repellat laudantium. Laudantium.</p>
-
-        </section>
-    </article>
-
-    <!-- Advertising videos-->
-    <aside>
-        <h4>Potrebbero interessarti</h4>
-        <div id="first-video">Lorem ipsum dolor</div>
-        <div id="second-video">Lorem ipsum dolor</div>
-    </aside>
-
-</div>    
+        <!--// HEADER //-->
+        <header>
+            <h1>Internet deve essere al servizio del "bene pubblico": il <br> manifesto di Tim Berners-Lee</h1>
+            <div class="author text-grey f-bold">
+                <span>Scritto da</span>
+                <a id="link-booleaner" class="text-blue"> The Booleaner</a>
+                <br>
+                <span>il</span>
+                <em>10/10/2020</em>
+            </div>
+        </header>
+        <!--// ARTICLE //-->
+        <article>
+            <!--* Images section *-->
+            <section class="imgage">
+                <img src="./img/tim-1.jpg" alt="Tim Berners-Lee">
+                <img src="./img/tim-2.jpg" alt="Tim Berners-Lee">
+                <figcaption>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</figcaption>
+                <figcaption>2nd Photo: Wikimedia, by Paul Clarke</figcaption>
+            </section>
+            <!--* First section text articlen *-->
+            <section class="text-article">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dignissimos! Mollitia et repellat
+                    fugiat alias eligendi nulla beatae cupiditate debitis dolore recusandae dicta exercitationem vero
+                    saepe, praesentium illum reprehenderit id. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Officia,
+                    <span class="bg-yellow">illo et? Architecto ipsum tempore odit et facilis mollitia quonostrum
+                        repellendus nesciunt</span>
+                    repudiandae temporibus cupiditate soluta, quis iusto esse
+                    aliquid.
+                </p>
+                <ul>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis nisi in est repellendus
+                        velit ad laboriosam exercitationem voluptatem
+                    </li>
+                    <li>Reiciendis fugiat quam aut harum doloribus amet provident optio quibusdam alias qui, autem
+                        perferendis nostrum
+                    </li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis nisi in est repellendus
+                        velit ad laboriosam exercitationem voluptatem
+                    </li>
+                </ul>
+            </section>
+            <!--* Table section *-->
+            <section class="table">
+                <!--// TABLE //-->
+                <table>
+                    <!--? Table header ?-->
+                    <thead class="text-white bg-blue f-bold">
+                        <tr>
+                            <th>Lorem ipsum dolor</th>
+                            <th>Lorem ipsum dolor</th>
+                            <th>Lorem ipsum dolor</th>
+                        </tr>
+                    </thead>
+                    <!--? Table body ?-->
+                    <tbody>
+                        <tr class="bg-light-blue">
+                            <td class="w-200">Lorem ipsum dolor</td>
+                            <td class="w-200">Lorem ipsum dolor</td>
+                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil sequi in enim nobis
+                                tempora accusamus ab iste, labore cum et excepturi maiores voluptate vitae eligendi? Ab
+                                voluptatum perferendis repellat odio.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="w-200">Lorem ipsum dolor</td>
+                            <td class="w-200">Lorem ipsum dolor</td>
+                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil sequi in enim nobis
+                                tempora accusamus ab iste, labore cum et excepturi maiores voluptate vitae eligendi? Ab
+                                voluptatum perferendis repellat odio.
+                            </td>
+                        </tr>
+                        <tr class="bg-light-blue">
+                            <td class="w-200">Lorem ipsum dolor</td>
+                            <td class="w-200">Lorem ipsum dolor</td>
+                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil sequi in enim nobis
+                                tempora accusamus ab iste, labore cum et excepturi maiores voluptate vitae eligendi? Ab
+                                voluptatum perferendis repellat odio.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <!--* Second section text article *-->
+            <section class="text-article">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos libero placeat possimus vel eius at
+                    laudantium distinctio ex porro dolores enim debitis rem a quibusdam alias quisquam, amet voluptate
+                    eligendi.<span class="bg-yellow"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    Iure harum exercitationem ipsa sunt consectetur tempora, rerum libero enim, suscipit officia
+                    adipisci? Officia quam, voluptatum ab fugit mollitia repellat laudantium. Laudantium.
+                </p>
+            </section>
+        </article>
+        <!--// ASIDE //-->
+        <aside>
+            <h4 class="text-grey">Potrebbero interessarti</h4>
+            <div id="first-video" class="w-200">
+                <span class="text-video text-white f-bold">Lorem ipsum dolor</span>
+            </div>
+            <div id="second-video" class="w-200">
+                <span class="text-video text-white f-bold">Lorem ipsum dolor</span>
+            </div>
+        </aside>
+    </div>
 </body>
+
 </html>
